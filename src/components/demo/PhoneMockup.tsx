@@ -56,7 +56,6 @@ export default function PhoneMockup() {
                   {appIcons.map((app, index) => (
                     <AppIcon 
                       key={index} 
-                      name={app.name}
                       color={app.color}
                       icon={app.icon}
                       onClick={app.onClick}

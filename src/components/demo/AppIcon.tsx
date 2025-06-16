@@ -1,11 +1,10 @@
 interface AppIconProps {
-  name: string;
   color: string;
   icon: string;
   onClick?: () => void;
 }
 
-export default function AppIcon({ name: _name, color, icon, onClick }: AppIconProps) {
+export default function AppIcon({ color, icon, onClick }: AppIconProps) {
   const iconSvgs = {
     whatsapp: (
       <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
