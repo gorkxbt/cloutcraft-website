@@ -1,18 +1,6 @@
 {
   "version": 2,
   "name": "cloutcraft-website",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -40,10 +28,5 @@
         }
       ]
     }
-  ],
-  "functions": {
-    "src/app/**/*.tsx": {
-      "runtime": "@vercel/next@4.0.10"
-    }
-  }
+  ]
 } 
