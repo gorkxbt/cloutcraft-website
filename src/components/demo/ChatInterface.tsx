@@ -1,4 +1,4 @@
-interface Message {
+export interface Message {
   type: 'user' | 'ai';
   text: string;
 }

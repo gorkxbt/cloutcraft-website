@@ -2,11 +2,11 @@
 
 import { useState } from 'react';
 import AppIcon from './AppIcon';
-import ChatInterface from './ChatInterface';
+import ChatInterface, { Message } from './ChatInterface';
 
 export default function PhoneMockup() {
   const [isAppOpen, setIsAppOpen] = useState(false);
-  const [messages, setMessages] = useState([
+  const [messages, setMessages] = useState<Message[]>([
     { type: 'ai', text: 'Hey! I\'m your CloutCraft AI. Send me a tweet and I\'ll optimize it for maximum engagement on crypto Twitter.' }
   ]);
   const [inputText, setInputText] = useState('');
