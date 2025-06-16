@@ -9,7 +9,7 @@ export default function SuccessMessage() {
           Welcome to CloutCraft Beta!
         </h2>
         <p className="text-xl text-[#333333]/80 mb-8 font-medium">
-          We've added you to our exclusive beta list. You'll be notified when CloutCraft launches.
+          We&apos;ve added you to our exclusive beta list. You&apos;ll be notified when CloutCraft launches.
         </p>
         <div className="bg-gradient-to-r from-[#FFCC00]/20 to-[#FF9933]/20 rounded-2xl p-6 border border-[#FFCC00]/40 shadow-lg">
           <p className="text-[#333333]/70 font-medium">

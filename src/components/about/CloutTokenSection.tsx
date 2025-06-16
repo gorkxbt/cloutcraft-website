@@ -1,5 +1,3 @@
-import GradientText from '@/components/ui/GradientText';
-
 export default function CloutTokenSection() {
   const tokenFeatures = [
     { text: "Earn by creating and improving content", color: "bg-[#FFCC00]", delay: "" },
